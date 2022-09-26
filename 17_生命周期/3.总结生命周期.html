@@ -52,7 +52,7 @@
                 //剪头函数没有this会从外部作用域寻找 mounted是由vue管理的函数，所以该函数中的this是vm(vue实例对象)
                 this.opacity -= 0.01;
                 if(this.opacity <= 0) this.opacity = 1;
-            },16);
+            }, 16);
         },
 
         beforeDestroy() {
